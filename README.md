@@ -1,4 +1,4 @@
-# GRETA-Exercices PHP-1
+# GRETA - Exercices PHP-1
 * Exercice 1
     * Ecrire un algorithme qui demande à l’utilisateur un nombre compris entre 1 et 3 jusqu’à ce que la réponse convienne.
 
