@@ -97,16 +97,14 @@ $key8 = array_search(max($tab8), $tab8);
 echo 'La valeur max est '.max($tab8).' qui correspond au '.($key8 + 1).'ème nombre; ';
 
 // Exercice 9
-$nombre9 = readLine('Saisissez un nombre entier : ');
-$tab9 = [$nombre9];
+$tab9 = [];
 
 do
 {
 	$nbr = readLine('Saisissez un nombre : ');
-	$nombre9 = $nbr;
 	array_push($tab9, $nbr);
 }
-while($nombre9 > 0);
+while($nbr != 0);
 
 $total = array_sum($tab9);
 
