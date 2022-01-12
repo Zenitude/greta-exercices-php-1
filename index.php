@@ -82,16 +82,14 @@ echo 'La valeur max est '.max($tab7).' qui correspond au '.($key+1).'ème nombre
 
 // Exercice 8
 
-$nombre8 = readLine('Saisissez un nombre : ');
-$tab8 = [$nombre8];
+$tab8 = [];
 
 do
 {
-	$nbr = readLine('Saisissez un nombre : ');
-	$nombre8 = $nbr;
-	array_push($tab8, $nbr);
+	$nbr8 = readLine('Saisissez un nombre : ');
+	array_push($tab8, $nbr8);
 }
-while($nombre8 > 0);
+while($nbr8 != 0);
 
 $key8 = array_search(max($tab8), $tab8);
 echo 'La valeur max est '.max($tab8).' qui correspond au '.($key8 + 1).'ème nombre; ';
@@ -101,10 +99,10 @@ $tab9 = [];
 
 do
 {
-	$nbr = readLine('Saisissez un nombre : ');
-	array_push($tab9, $nbr);
+	$nbr9 = readLine('Saisissez un nombre : ');
+	array_push($tab9, $nbr9);
 }
-while($nbr != 0);
+while($nbr9 != 0);
 
 $total = array_sum($tab9);
 
